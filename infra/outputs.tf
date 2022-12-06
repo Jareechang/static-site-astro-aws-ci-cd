@@ -12,3 +12,8 @@ output "role_arn" {
 #output "cf_distribution_domain_url" {
   #value = "https://${aws_cloudfront_distribution.cf_distribution.domain_name}"
 #}
+
+#output "cf_distribution_id" {
+  #value = "${aws_cloudfront_distribution.cf_distribution.id}"
+#}
+
